@@ -30,7 +30,7 @@ The system is split into independent services that together mimic a real exchang
 ## Folder structure
 
 ```text
-orderbook-1/
+orderbook/
 ├── README.md
 ├── .gitignore
 ├── week-01-orderbook-foundations/
@@ -202,21 +202,5 @@ Then open the frontend in the browser, usually on:
 http://localhost:3000
 ```
 
-## Notes
 
-This is an educational and prototype-grade exchange project, not a production-ready trading platform. The repository demonstrates how a real exchange can be decomposed into services and how realtime market data flows between them.
 
-## Possible next improvements
-
-- add robust user authentication and accounts
-- implement balance tracking and wallet logic
-- improve order validation and error handling
-- add persistent trade history
-- support full order lifecycle states
-- improve UI completeness and data correctness
-- add tests for websocket and api flows
-- tighten production deployment configuration
-
-## License
-
-This project is intended for learning and experimentation. Check each subproject for any service-specific licensing or assumptions.

@@ -1,0 +1,21 @@
+{
+  "name": "market-data-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/market-data-worker.js",
+    "dev": "npm run build && node dist/market-data-worker.js",
+    "seed:db": "npm run build && node dist/seed-db.js",
+    "refresh:views": "npm run build && node dist/refresh-candlestick-views.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^8.11.6",
+    "pg": "^8.12.0",
+    "redis": "^4.6.14"
+  }
+}

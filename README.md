@@ -30,7 +30,7 @@ The system is split into independent services that together mimic a real exchang
 ## Folder structure
 
 ```text
-week-30-orderbook-1/
+orderbook-1/
 ├── README.md
 ├── .gitignore
 ├── week-01-orderbook-foundations/
